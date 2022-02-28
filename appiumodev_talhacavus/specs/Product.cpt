@@ -1,0 +1,43 @@
+Created by testinium on 28.02.2022
+
+This is a concept file with following syntax for each concept.
+# Alışverişe başlama butonuna tıklanıp açıldığı kontrol edilir
+* alışverişe başla "com.ozdilek.ozdilekteyim:id/tv_startShoppingStore" butonuna tıklandı
+//* "3" saniye kadar bekle
+* Alışveriş sayfasının açıldıgını doğrulama
+
+# Kategoriler butonuna tıklanıp açıldığı kontrol edilir
+* kategoriler "com.ozdilek.ozdilekteyim:id/nav_categories" butonuna tıklandı
+//* "3" saniye kadar bekle
+* Kategoriler sayfasının açıldıgını doğrulama
+
+#Kadın sekmesi butonuna tıklanır
+* Kadın Sekmesi "//android.widget.RelativeLayout[@index = '1']" butonuna tıklandı
+//* "3" saniye kadar bekle
+
+#Pantolon sekmesine kadar sayfa kaydırılır ve pantolon butonuna tıklanır
+* Pantolona sekmesine kaydırma
+* Pantolon Sekmesi "//androidx.recyclerview.widget.RecyclerView/android.widget.RelativeLayout[13]" butonuna tıklandı
+//* "3" saniye kadar bekle
+
+# Rastgele ürün seçimi yapılır ve ürün detay sayfası açıldığı kontrol edilir
+* Rasgele ürün seçimi yapılır
+//* "3" saniye kadar bekle
+* Ürün detay sayfası açıldığı konttol edildi
+
+# Favoriler butonuna tıklanır vw giriş yapma sayfasının açıldığı kontrol edilir
+* Favoriler "com.ozdilek.ozdilekteyim:id/imgFav" butonuna tıklandı
+//* "3" saniye kadar bekle
+* Giriş yapma sayfasının açıldığının doğrulanması
+
+# Kullıcı bilgileri textboxlara gönderilir
+* Kullanıcı adı texte gönderilir
+* Parola texte gönderilir
+
+# 2 defa bir önceki sayfaya gelinir ve rastgele ürün seçimi yapılır
+* Geri tuşuna arka arkaya 2 defa basılır
+//* "3" saniye kadar bekle
+* Rasgele ürün seçimi yapılır
+//* "3" saniye kadar bekle
+
+
